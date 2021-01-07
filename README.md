@@ -1,2 +1,2 @@
-# day-planner
-A calendar application that allows the user to save events for each hour of the workday.
+# jQuery-Powered Day Planner
+### Updated README incoming...
