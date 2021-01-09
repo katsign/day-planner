@@ -6,7 +6,6 @@ h1 {
 }
 
 #calIcon {
-border: light;
 padding-top: 1rem;
 padding-bottom: 1.51rem;
 }
@@ -99,10 +98,21 @@ textarea{
   cursor: pointer;
 }
 
+.div-mobile {
+  display: none;
+}
+
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 690px) {
   .container-fluid {
     display: none;
+  }
+  .div-mobile {
+    display: block;
+  }
+  body {
+    background: none;
+    background-color: #1A1A1A;
   }
 }
