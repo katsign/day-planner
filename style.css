@@ -110,6 +110,7 @@ textarea{
   }
   .div-mobile {
     display: block;
+    height: 500px;
   }
   body {
     background: none;
