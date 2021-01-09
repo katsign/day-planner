@@ -2,19 +2,20 @@
 
 h1 {
   font-family: 'Playfair Display', serif;
-  color: #707ba1;
+  color: #AEA1BF;
 }
 
 #calIcon {
+border: light;
 padding-top: 1rem;
 padding-bottom: 1.51rem;
 }
 
 .fa-sun {
-  color: rgb(223, 221, 115)
+  color: palegoldenrod;
 }
 .fa-moon {
-  color:rgb(221, 216, 231)
+  color: #AEA1BF;
 }
 .fa-save {
   padding-top: 2.5rem;
@@ -22,7 +23,8 @@ padding-bottom: 1.51rem;
 }
 
 body {
-  background-color: #fafafa;
+  background: rgb(174,161,191);
+  background: linear-gradient(0deg, rgba(174,161,191,0.44021358543417366) 0%, rgba(254,228,205,0.4430147058823529) 100%);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #141414;
@@ -39,7 +41,7 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: #F2F2F2;
   color: #141414;
   border-radius: 0;
   border-bottom: 8px solid #141414;
@@ -57,13 +59,13 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
   margin-bottom: 2rem;
   margin-right: 1rem;
 }
 
 .hour {
-  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  color: #141414;
   text-align: right;
 }
 
@@ -86,7 +88,7 @@ textarea{
   border-left: 8px solid #141414;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #707ba1;
+  background-color: #AEA1BF;
   color: white;
 
 }
