@@ -7,18 +7,25 @@ h1 {
 
 #calIcon {
 padding-top: 1rem;
-padding-bottom: 1.51rem;
+padding-bottom: 1.5rem;
 }
 
 .fa-sun {
-  color: palegoldenrod;
+  color: #e2c567;
 }
 .fa-moon {
   color: #AEA1BF;
 }
-.fa-save {
-  padding-top: 2.5rem;
-  padding-right: 0.5rem;
+
+#currentDay {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  padding-top: 1.5rem;
+}
+
+#currentTime {
+  font-size: 20px;
+  letter-spacing: 1.25px;
 }
 
 body {
@@ -35,7 +42,7 @@ textarea{
   border: none;
   resize: none;
   color: #141414;
-  padding: 10px;
+  padding: 30px;
 }
 
 .jumbotron {
@@ -44,6 +51,7 @@ textarea{
   color: #141414;
   border-radius: 0;
   border-bottom: 8px solid #141414;
+  padding-bottom: 2rem;
 }
 
 .description{
@@ -57,15 +65,13 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  margin-bottom: 2rem;
-  margin-right: 1rem;
+  height: 100px;
+  margin-bottom: 1rem;
 }
 
 .hour {
   font-family: 'Roboto', sans-serif;
   color: #141414;
-  text-align: right;
 }
 
 .past {
@@ -74,28 +80,26 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #AEA1BF;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #FEE4CD;
   color: white;
 }
 
 .saveBtn {
   border-left: 8px solid #141414;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #AEA1BF;
+  background-color: #242424;
   color: white;
-
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn:hover {
+  font-size: 18px;
   transition: all .2s ease-in-out;
   cursor: pointer;
+  color: white;
 }
 
 .div-mobile {
@@ -104,8 +108,8 @@ textarea{
 
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 690px) {
-  .container-fluid {
+@media only screen and (max-width: 770px) {
+  .main {
     display: none;
   }
   .div-mobile {
