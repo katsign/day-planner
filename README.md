@@ -11,15 +11,15 @@ When accessed from too small a screen, a media query in the stylesheet hides the
 ## Demo
 
 ### At the top of the screen, a jumbotron displays the current day and the time.
-![Demo of Day Planner](screenshots/jumbo.png)
+![Demo of Day Planner](./assets/screenshots/jumbo.png)
 
 
-![Demo of Day Planner](screenshots/entry.png)
+![Demo of Day Planner](./assets/screenshots/entry.png)
 ### The screenshots below show the timeblocks colored based on the time 2:20pm. The program loops through the timeblocks and changes the class with jQuery, manipulating the colors to correspond to the time of day.
 
 Timeblocks 9AM-2PM            |  Timeblocks 2-5PM
 :-------------------------:|:-------------------------:
-![Demo of Day Planner](screenshots/9-2.png)  |  ![Demo of Day Planner](screenshots/2-5.png)
+![Demo of Day Planner](./assets/screenshots/9-2.png)  |  ![Demo of Day Planner](./assets/screenshots/2-5.png)
 
 ## Credits
 
