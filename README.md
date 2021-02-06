@@ -1,7 +1,9 @@
-# Work Day Planner :calendar:
-### A jQuery-Powered [Day Planner](https://katsign.github.io/day-planner/)
+# No-Stress Work Day Planner :calendar:
+### Save and clear events in soothing pastel timeblocks to keep track of your daily tasks while working from home.
 
 ## Description
+### Link to deployment: https://katsign.github.io/day-planner/
+
 This simple browser application uses jQuery to access the [Moment.js](https://momentjs.com/) library and manipulate the timeblocks of a virtual day planner. When the user looks at the app during work day hours (9 AM to 5 PM in this case) the timeblocks in the past appear grey; the present, purple; and the future, tan. When an entry is made into a timeblock's textarea, an event listener runs a function to save that data to the local storage of the user's machine. The past saved entries will appear on window load unless replaced/cleared and re-saved.
 
 When accessed from too small a screen, a media query in the stylesheet hides the main content and displays an error message.
