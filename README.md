@@ -25,5 +25,5 @@ Timeblocks 9AM-2PM            |  Timeblocks 2-5PM
 
 ### :milky_way: [Bootstrap 4.0](https://getbootstrap.com)
 ### :cyclone: [Font Awesome Icons](https://fontawesome.com/icons?d=gallery)
-### :blue_book: [Google Fonts](https://code.jquery.com/)
-### :globe_with_meridians: [jQuery CDN](https://fonts.google.com/)
+### :globe_with_meridians: [jQuery CDN](https://code.jquery.com/)
+### :blue_book: [Google Fonts](https://fonts.google.com/)
